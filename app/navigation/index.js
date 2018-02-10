@@ -85,6 +85,11 @@ const TabNavigation = TabNavigator({
 const Navigation = StackNavigator({
     Main: { screen: TabNavigation },
     ShopCart: { screen: ShopCart }
+
+
+
+
+    
 });
 
 
