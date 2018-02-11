@@ -37,7 +37,7 @@ export default class Home extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <View style={{height:210}}>
+                <View style={{height:375}}>
                 {this._renderSwiper()}
                 </View>
                
@@ -88,7 +88,7 @@ export default class Home extends Component {
     }
     async _init() {
         let params = {
-            id: 3681
+            id: 2372
         }
         let res = await getList(params);
         if (res.code == 0) {
